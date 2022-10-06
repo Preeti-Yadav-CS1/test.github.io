@@ -4,67 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PhotoGraper Blog</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <div class="main">
-        <!-- inside nav Bar -->
-        <div class="navbar">
-            <!-- Icon div  -->
-            <div class="icon">
-                <h2 class="logo">Logo Here</h2>
-            </div>
+    
+<!-- header section starts  -->
 
+<header class="header">
 
-            <!-- menu bar  -->
-            <div class="menu">
-                <ul>
-                    <li style="color: red;"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+    <a href="#" class="logo">
+        <h1 class="logo">Logo Here</h1>
+        <!-- <img src="images/logo.png" alt=""> -->
+    </a>
 
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#blogs">blogs</a>
+        <a href="#plans">plans</a>
+        <a href="#Gallary">gallary</a>
+        <a href="#contact us">contact</a>
+    </nav>
 
-            <!-- search bar
-             -->
-             <div class="search">
-                <input type="search" class="searchbar" placeholder="Search Anything">
-                <a href="#"> <button class="button">search</button></a>
-             </div>
-
-
-        </div>
-        <!-- outside nav bar  -->
-        <div class="content">
-            <h1>Design and <br>
-               <span>Development</span> course</h1>
-            <br>
-            <p class="paragraph">Description 
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia <br> velit voluptas repudiandae libero quo porro dolores minus odit <br>  ex! Quisquam cupiditate eaque voluptates animi atque reici <br> dolorem nihil repudiandae?Lorem ipsum dolor sit, amet conse<br> adipisicing elit. Veritatis ipsum, ea repellat exercitation<br> culpa voluptate?<br> Neque cumque et  ad vel magni temporibus sapiente eius tempora<br> suscipit, harum voluptas? <br>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>  explicabo dignissimos temporibus voluptatum <br>adipisci quod pariatur doloremque ipsa tenetur distinctio <br>  laborum assumenda, aperiam itaque commodi suscipit optio est <br>
-            </p>
-            <button class="join"><a href="#">Join Us</a></button>
-
-            <!-- inside content 
-             -->
-             <div class="loginForm">
-                <h2>LogIn from here <b>↴↴</b></h2>
-                <input type="email" name="email" placeholder="Enter your email here">
-                <input type="password" name="" placeholder="Enter Password">
-                <button class="BUTTON1"><a href="#">Log In</a></button>
-                <p class="notAccount"> Don't have an account<br><br>
-                <a href="#"> Sign Up</a> From Here</p>
-                <p class="loginwith">Log in with</p>
-
-                <div class="loginwithaccounts">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                </div>
-             </div>
-        </div>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
     </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+  
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="photograph">
+        <div class="images">
+            <img src="images\1.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\2.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\3.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\4.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\5.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\6.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\7.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\8.jpg" alt="">
+        </div>
+        <div class="images">
+            <img src="images\ahmad-mafaaz-i4YgiY1bey8-unsplash.jpg" alt="">
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images\roberta-sorge-UvVVnUmW2mQ-unsplash.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Why to Book Trail...</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam similique pariatur, excepturi dolores quidem corporis! Explicabo quos veniam unde nam, laudantium autem non consectetur tempore ab aut iste quo possimus debitis, commodi itaque inventore, impedit enim ut obcaecati praesentium tenetur? Nam est reprehenderit laborum odio totam necessitatibus ab consequatur vero?
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias maxime maiores pariatur fugit eum repellendus harum minus ipsam cum numquam, explicabo doloremque dicta placeat impedit et deserunt distinctio quod laudantium! Asperiores, doloribus debitis? Numquam provident eligendi voluptate laborum? Repudiandae quasi illum laboriosam totam maiores. Neque excepturi libero quod dolor exercitationem!
+            </p>
+            <a href="#" class="btn">Book Trail</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">created by <span>Miss Preeti Yadav</span></div>
+
+</section>
+
+<!-- footer section ends -->
+
 </body>
 </html>
